@@ -4,12 +4,12 @@ from pathlib import Path
 
 
 BACKEND_ROOT = Path(__file__).resolve().parents[2]
-REPO_ROOT = BACKEND_ROOT.parents[1]
+CSV_DATA_DIR = BACKEND_ROOT / "data" / "csv"
 
-BASELINE_PATH = REPO_ROOT / "dpp-new" / "output" / "category_baseline.csv"
-FORECAST_SHORT_PATH = REPO_ROOT / "dpp-new" / "output" / "forecast_2027_2029_summary.csv"
-FORECAST_DETAIL_PATH = REPO_ROOT / "dpp-new" / "output" / "forecast_2027_2029_detail.csv"
-FORECAST_LONG_PATH = REPO_ROOT / "dpp-new" / "output" / "forecast_2030_2034_summary.csv"
-CUSTOMS_PATH = REPO_ROOT / "dpp-customs" / "official_customs_quantity_extract_2024_2025.csv"
-CHECKLIST_PATH = REPO_ROOT / "dpp-customs" / "eu_interactive_query_checklist.csv"
+BASELINE_PATH = CSV_DATA_DIR / "category_baseline.csv"
+FORECAST_SHORT_PATH = CSV_DATA_DIR / "forecast_2027_2029_summary.csv"
+FORECAST_DETAIL_PATH = CSV_DATA_DIR / "forecast_2027_2029_detail.csv"
+FORECAST_LONG_PATH = CSV_DATA_DIR / "forecast_2030_2034_summary.csv"
+CUSTOMS_PATH = CSV_DATA_DIR / "official_customs_quantity_extract_2024_2025.csv"
+CHECKLIST_PATH = CSV_DATA_DIR / "eu_interactive_query_checklist.csv"
 NEWS_PATH = BACKEND_ROOT / "news_seed.json"
