@@ -1,0 +1,1327 @@
+{
+  "meta": {
+    "schema": "dashboard.v1",
+    "updatedAt": "2026-04-01T08:37:11.376344Z",
+    "description": "Static dashboard payload for pure static deployment"
+  },
+  "data": {
+    "updatedAt": "2026-04-01T08:37:11.376344Z",
+    "kpis": {
+      "totalExportValue2025UsdBn": 450.29,
+      "totalBillingUnits2025M": 15776.8,
+      "totalExporters2025": 135800,
+      "directCustomsCategories": 4,
+      "partialCustomsCategories": 2,
+      "pendingHsQueries": 12
+    },
+    "stageBreakdown": [
+      {
+        "phase": "当前已明确覆盖",
+        "exportValue2025UsdBn": 221.88,
+        "billingUnits2025M": 5588.8,
+        "exporters2025": 61500
+      },
+      {
+        "phase": "近期即将纳入",
+        "exportValue2025UsdBn": 80.24,
+        "billingUnits2025M": 3593.4,
+        "exporters2025": 29000
+      },
+      {
+        "phase": "中长期扩展方向",
+        "exportValue2025UsdBn": 148.17,
+        "billingUnits2025M": 6594.6,
+        "exporters2025": 45300
+      }
+    ],
+    "categories": [
+      {
+        "phase": "当前已明确覆盖",
+        "category": "电池",
+        "targetYear": 2027,
+        "exportValue2024UsdBn": 24.25,
+        "exportValue2025UsdBn": 30.41,
+        "billingUnits2024M": 220.5,
+        "billingUnits2025M": 276.5,
+        "unitValueUsd": 110.0,
+        "exporters2025": 4500,
+        "priceBandRmb": {
+          "bad": 2.5,
+          "mid": 4.0,
+          "good": 6.0
+        },
+        "growthAfter2026": 0.1,
+        "source2024": "按 2025 年欧盟自中国进口 electric accumulators 30.41B 美元，结合 2025 年中国对欧盟储能电池/充电桩出口同比 +25.4% 回推。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - electric accumulators = 30.41B USD (2025)。",
+        "note": "采用“DPP 合规单元”口径，按电池包/模组/可独立追溯电池计费，不按电芯逐颗计费。"
+      },
+      {
+        "phase": "当前已明确覆盖",
+        "category": "消费电子/电子电器",
+        "targetYear": 2026,
+        "exportValue2024UsdBn": 145.0,
+        "exportValue2025UsdBn": 155.9,
+        "billingUnits2024M": 805.6,
+        "billingUnits2025M": 866.1,
+        "unitValueUsd": 180.0,
+        "exporters2025": 12000,
+        "priceBandRmb": {
+          "bad": 0.12,
+          "mid": 0.25,
+          "good": 0.45
+        },
+        "growthAfter2026": 0.06,
+        "source2024": "按 2025 年电气电子口径剔除电池后回推，参考 2025 年中国高技术产品对欧出口同比约 +7.5%。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - electrical/electronic equipment 186.31B USD；减去 electric accumulators 30.41B USD。",
+        "note": "覆盖手机、电脑、家电 PCB、服务器等；以整机/板卡/可独立流通部件作为一物一码单元。"
+      },
+      {
+        "phase": "当前已明确覆盖",
+        "category": "纺织服装",
+        "targetYear": 2027,
+        "exportValue2024UsdBn": 31.1,
+        "exportValue2025UsdBn": 35.57,
+        "billingUnits2024M": 3887.5,
+        "billingUnits2025M": 4446.2,
+        "unitValueUsd": 8.0,
+        "exporters2025": 45000,
+        "priceBandRmb": {
+          "bad": 0.02,
+          "mid": 0.04,
+          "good": 0.06
+        },
+        "growthAfter2026": 0.05,
+        "source2024": "针织服装 13.49B + 非针织服装 12.54B + 其他纺织成品按 5.07B 估算。",
+        "source2025": "Trading Economics/UN Comtrade：针织服装 15.83B、非针织服装 14.21B、其他纺织成品 5.53B USD。",
+        "note": "与原模型一致，按件估算；鞋类单独列示，不并入本行避免重复计算。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "轮胎/橡胶制品",
+        "targetYear": 2027,
+        "exportValue2024UsdBn": 6.16,
+        "exportValue2025UsdBn": 6.96,
+        "billingUnits2024M": 123.2,
+        "billingUnits2025M": 139.2,
+        "unitValueUsd": 50.0,
+        "exporters2025": 1500,
+        "priceBandRmb": {
+          "bad": 0.15,
+          "mid": 0.3,
+          "good": 0.5
+        },
+        "growthAfter2026": 0.04,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - rubbers = 6.16B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - rubbers = 6.96B USD (2025)。",
+        "note": "按轮胎/高值橡胶件计费，不按橡胶原料公斤计费。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "钢铁及钢制品",
+        "targetYear": 2026,
+        "exportValue2024UsdBn": 18.8,
+        "exportValue2025UsdBn": 20.49,
+        "billingUnits2024M": 156.7,
+        "billingUnits2025M": 170.8,
+        "unitValueUsd": 120.0,
+        "exporters2025": 5000,
+        "priceBandRmb": {
+          "bad": 0.12,
+          "mid": 0.25,
+          "good": 0.4
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按 iron and steel + articles of iron or steel 口径估算 18.80B USD。",
+        "source2025": "Trading Economics/UN Comtrade：iron and steel 15.75B + articles of iron or steel 4.74B USD。",
+        "note": "一物一码单元按卷、板、束、托盘或独立零部件折算。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "铝制品",
+        "targetYear": 2027,
+        "exportValue2024UsdBn": 4.18,
+        "exportValue2025UsdBn": 4.51,
+        "billingUnits2024M": 69.7,
+        "billingUnits2025M": 75.2,
+        "unitValueUsd": 60.0,
+        "exporters2025": 1500,
+        "priceBandRmb": {
+          "bad": 0.12,
+          "mid": 0.25,
+          "good": 0.4
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - aluminum = 4.18B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - aluminum = 4.51B USD (2025)。",
+        "note": "按托盘、型材包、板卷或深加工部件折算。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "家具",
+        "targetYear": 2028,
+        "exportValue2024UsdBn": 22.17,
+        "exportValue2025UsdBn": 24.1,
+        "billingUnits2024M": 316.7,
+        "billingUnits2025M": 344.3,
+        "unitValueUsd": 70.0,
+        "exporters2025": 10000,
+        "priceBandRmb": {
+          "bad": 0.1,
+          "mid": 0.2,
+          "good": 0.35
+        },
+        "growthAfter2026": 0.04,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - furniture, lighting signs, prefabricated buildings = 22.17B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - furniture, lighting signs, prefabricated buildings = 24.10B USD (2025)。",
+        "note": "床垫单列，家具本行不重复包含床垫。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "床垫/寝具",
+        "targetYear": 2029,
+        "exportValue2024UsdBn": 1.48,
+        "exportValue2025UsdBn": 1.62,
+        "billingUnits2024M": 32.9,
+        "billingUnits2025M": 36.0,
+        "unitValueUsd": 45.0,
+        "exporters2025": 2500,
+        "priceBandRmb": {
+          "bad": 0.08,
+          "mid": 0.18,
+          "good": 0.3
+        },
+        "growthAfter2026": 0.04,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - mattresses = 1.48B USD (2024)。",
+        "source2025": "按家具大类同比增速 +8.7% 外推 1.62B USD。",
+        "note": "按张/件计费，适合在 2029 年后作为家具大类补充细分。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "塑料/包装",
+        "targetYear": 2028,
+        "exportValue2024UsdBn": 16.95,
+        "exportValue2025UsdBn": 17.76,
+        "billingUnits2024M": 1994.1,
+        "billingUnits2025M": 2089.4,
+        "unitValueUsd": 8.5,
+        "exporters2025": 6000,
+        "priceBandRmb": {
+          "bad": 0.02,
+          "mid": 0.04,
+          "good": 0.07
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按 2025 年 plastics 口径倒推，假设同比 +4.8%。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - plastics = 17.76B USD (2025)。",
+        "note": "按包装单元、周转箱、瓶罐或零售最小销售单元折算。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "涂料/洗涤剂",
+        "targetYear": 2029,
+        "exportValue2024UsdBn": 4.45,
+        "exportValue2025UsdBn": 4.8,
+        "billingUnits2024M": 684.6,
+        "billingUnits2025M": 738.5,
+        "unitValueUsd": 6.5,
+        "exporters2025": 2500,
+        "priceBandRmb": {
+          "bad": 0.04,
+          "mid": 0.07,
+          "good": 0.12
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按 organic chemicals 与日化出口趋势估算 4.45B USD。",
+        "source2025": "按 organic chemicals 38.54B USD 中约 12.5% 的 DPP 相关涂料/洗涤剂子类折算。",
+        "note": "该行是子类估算口径，避免与“化工/个人护理”整类重复时，五年预测按去重系数处理。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "汽车及零部件",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 28.75,
+        "exportValue2025UsdBn": 33.82,
+        "billingUnits2024M": 11.5,
+        "billingUnits2025M": 13.5,
+        "unitValueUsd": 2500.0,
+        "exporters2025": 3500,
+        "priceBandRmb": {
+          "bad": 0.5,
+          "mid": 1.0,
+          "good": 1.8
+        },
+        "growthAfter2026": 0.06,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - vehicles other than railway, tramway = 28.75B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - vehicles other than railway, tramway = 33.82B USD (2025)。",
+        "note": "按整车或独立高值零部件/总成计费，不按螺丝等极小件计费。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "建筑材料",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 6.6,
+        "exportValue2025UsdBn": 7.2,
+        "billingUnits2024M": 220.0,
+        "billingUnits2025M": 240.0,
+        "unitValueUsd": 30.0,
+        "exporters2025": 5000,
+        "priceBandRmb": {
+          "bad": 0.08,
+          "mid": 0.15,
+          "good": 0.25
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按玻璃、木材、陶瓷及保温材料的可追溯子类合并估算 6.60B USD。",
+        "source2025": "以 glass and glassware 4.05B USD 为主，叠加木材、陶瓷、保温材料相关子类估算 7.20B USD。",
+        "note": "以托盘、箱、件或板材束为合规追溯单元。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "玩具",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 14.87,
+        "exportValue2025UsdBn": 17.81,
+        "billingUnits2024M": 1982.7,
+        "billingUnits2025M": 2374.7,
+        "unitValueUsd": 7.5,
+        "exporters2025": 8000,
+        "priceBandRmb": {
+          "bad": 0.04,
+          "mid": 0.08,
+          "good": 0.12
+        },
+        "growthAfter2026": 0.05,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - toys, games, sports requisites = 14.87B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - toys, games, sports requisites = 17.81B USD (2025)。",
+        "note": "适合件级追溯，一码收入与纺织相近但监管资料字段更多。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "化工/清洁剂/个人护理",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 7.5,
+        "exportValue2025UsdBn": 8.1,
+        "billingUnits2024M": 1363.6,
+        "billingUnits2025M": 1472.7,
+        "unitValueUsd": 5.5,
+        "exporters2025": 3000,
+        "priceBandRmb": {
+          "bad": 0.05,
+          "mid": 0.09,
+          "good": 0.15
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按 DPP 相关终端化工、清洁及个人护理子类估算 7.50B USD。",
+        "source2025": "参考 organic chemicals 38.54B USD 与日化用品子类，对 DPP 相关终端品折算为 8.10B USD。",
+        "note": "与“涂料/洗涤剂”存在子类重叠，因此企业数与五年期收入使用去重系数。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "家电白电",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 9.8,
+        "exportValue2025UsdBn": 10.5,
+        "billingUnits2024M": 89.1,
+        "billingUnits2025M": 95.5,
+        "unitValueUsd": 110.0,
+        "exporters2025": 2500,
+        "priceBandRmb": {
+          "bad": 0.15,
+          "mid": 0.3,
+          "good": 0.5
+        },
+        "growthAfter2026": 0.04,
+        "source2024": "按 refrigerator/freezer、air conditioners、washing appliances 等白电子类合并估算 9.80B USD。",
+        "source2025": "参考制冷设备与空调子类 2025 口径合并估算 10.50B USD。",
+        "note": "白电单台价值较高，DPP 单价高于纺织和玩具。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "机械设备/工业装备",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 40.0,
+        "exportValue2025UsdBn": 45.0,
+        "billingUnits2024M": 57.1,
+        "billingUnits2025M": 64.3,
+        "unitValueUsd": 700.0,
+        "exporters2025": 8000,
+        "priceBandRmb": {
+          "bad": 0.3,
+          "mid": 0.6,
+          "good": 1.0
+        },
+        "growthAfter2026": 0.05,
+        "source2024": "从 machinery, nuclear reactors, boilers 大类剔除消费电子和白电子类后，估算为 40.00B USD。",
+        "source2025": "从 machinery, nuclear reactors, boilers 120.32B USD 中提取工业装备相关子类，估算为 45.00B USD。",
+        "note": "按设备、整机、模组或关键工业部件折算。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "纸张/木制品",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 4.8,
+        "exportValue2025UsdBn": 5.2,
+        "billingUnits2024M": 800.0,
+        "billingUnits2025M": 866.7,
+        "unitValueUsd": 6.0,
+        "exporters2025": 4500,
+        "priceBandRmb": {
+          "bad": 0.03,
+          "mid": 0.05,
+          "good": 0.08
+        },
+        "growthAfter2026": 0.02,
+        "source2024": "按 paper/paperboard 与 wood products 可追溯子类合并估算 4.80B USD。",
+        "source2025": "Trading Economics/UN Comtrade：paper/paperboard 3.75B USD，加木制品子类估算合计 5.20B USD。",
+        "note": "按包、箱、板或件折算，单码价格与纺织接近。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "医疗设备",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 3.8,
+        "exportValue2025UsdBn": 4.0,
+        "billingUnits2024M": 84.4,
+        "billingUnits2025M": 88.9,
+        "unitValueUsd": 45.0,
+        "exporters2025": 1800,
+        "priceBandRmb": {
+          "bad": 0.4,
+          "mid": 0.8,
+          "good": 1.2
+        },
+        "growthAfter2026": 0.04,
+        "source2024": "按 optical/photo/technical/medical apparatus 中医疗器械子类估算 3.80B USD。",
+        "source2025": "参考 medical apparatus 相关子类，折算为 4.00B USD。",
+        "note": "由于合规文件密集，后续 Consulting 附加率高于大多数品类。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "皮革/鞋类",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 15.15,
+        "exportValue2025UsdBn": 16.54,
+        "billingUnits2024M": 1262.5,
+        "billingUnits2025M": 1378.3,
+        "unitValueUsd": 12.0,
+        "exporters2025": 9000,
+        "priceBandRmb": {
+          "bad": 0.04,
+          "mid": 0.07,
+          "good": 0.12
+        },
+        "growthAfter2026": 0.04,
+        "source2024": "鞋类 8.45B + 皮革/箱包等子类按 6.70B 估算。",
+        "source2025": "Trading Economics/UN Comtrade：footwear 9.34B；articles of leather/travel goods 7.20B USD。",
+        "note": "截图提到可纳入纺织品大类；这里单列用于观测扩类后的 TAM。"
+      }
+    ],
+    "topCategoriesByBillingUnits": [
+      {
+        "phase": "当前已明确覆盖",
+        "category": "纺织服装",
+        "targetYear": 2027,
+        "exportValue2024UsdBn": 31.1,
+        "exportValue2025UsdBn": 35.57,
+        "billingUnits2024M": 3887.5,
+        "billingUnits2025M": 4446.2,
+        "unitValueUsd": 8.0,
+        "exporters2025": 45000,
+        "priceBandRmb": {
+          "bad": 0.02,
+          "mid": 0.04,
+          "good": 0.06
+        },
+        "growthAfter2026": 0.05,
+        "source2024": "针织服装 13.49B + 非针织服装 12.54B + 其他纺织成品按 5.07B 估算。",
+        "source2025": "Trading Economics/UN Comtrade：针织服装 15.83B、非针织服装 14.21B、其他纺织成品 5.53B USD。",
+        "note": "与原模型一致，按件估算；鞋类单独列示，不并入本行避免重复计算。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "玩具",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 14.87,
+        "exportValue2025UsdBn": 17.81,
+        "billingUnits2024M": 1982.7,
+        "billingUnits2025M": 2374.7,
+        "unitValueUsd": 7.5,
+        "exporters2025": 8000,
+        "priceBandRmb": {
+          "bad": 0.04,
+          "mid": 0.08,
+          "good": 0.12
+        },
+        "growthAfter2026": 0.05,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - toys, games, sports requisites = 14.87B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - toys, games, sports requisites = 17.81B USD (2025)。",
+        "note": "适合件级追溯，一码收入与纺织相近但监管资料字段更多。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "塑料/包装",
+        "targetYear": 2028,
+        "exportValue2024UsdBn": 16.95,
+        "exportValue2025UsdBn": 17.76,
+        "billingUnits2024M": 1994.1,
+        "billingUnits2025M": 2089.4,
+        "unitValueUsd": 8.5,
+        "exporters2025": 6000,
+        "priceBandRmb": {
+          "bad": 0.02,
+          "mid": 0.04,
+          "good": 0.07
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按 2025 年 plastics 口径倒推，假设同比 +4.8%。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - plastics = 17.76B USD (2025)。",
+        "note": "按包装单元、周转箱、瓶罐或零售最小销售单元折算。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "化工/清洁剂/个人护理",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 7.5,
+        "exportValue2025UsdBn": 8.1,
+        "billingUnits2024M": 1363.6,
+        "billingUnits2025M": 1472.7,
+        "unitValueUsd": 5.5,
+        "exporters2025": 3000,
+        "priceBandRmb": {
+          "bad": 0.05,
+          "mid": 0.09,
+          "good": 0.15
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按 DPP 相关终端化工、清洁及个人护理子类估算 7.50B USD。",
+        "source2025": "参考 organic chemicals 38.54B USD 与日化用品子类，对 DPP 相关终端品折算为 8.10B USD。",
+        "note": "与“涂料/洗涤剂”存在子类重叠，因此企业数与五年期收入使用去重系数。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "皮革/鞋类",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 15.15,
+        "exportValue2025UsdBn": 16.54,
+        "billingUnits2024M": 1262.5,
+        "billingUnits2025M": 1378.3,
+        "unitValueUsd": 12.0,
+        "exporters2025": 9000,
+        "priceBandRmb": {
+          "bad": 0.04,
+          "mid": 0.07,
+          "good": 0.12
+        },
+        "growthAfter2026": 0.04,
+        "source2024": "鞋类 8.45B + 皮革/箱包等子类按 6.70B 估算。",
+        "source2025": "Trading Economics/UN Comtrade：footwear 9.34B；articles of leather/travel goods 7.20B USD。",
+        "note": "截图提到可纳入纺织品大类；这里单列用于观测扩类后的 TAM。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "纸张/木制品",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 4.8,
+        "exportValue2025UsdBn": 5.2,
+        "billingUnits2024M": 800.0,
+        "billingUnits2025M": 866.7,
+        "unitValueUsd": 6.0,
+        "exporters2025": 4500,
+        "priceBandRmb": {
+          "bad": 0.03,
+          "mid": 0.05,
+          "good": 0.08
+        },
+        "growthAfter2026": 0.02,
+        "source2024": "按 paper/paperboard 与 wood products 可追溯子类合并估算 4.80B USD。",
+        "source2025": "Trading Economics/UN Comtrade：paper/paperboard 3.75B USD，加木制品子类估算合计 5.20B USD。",
+        "note": "按包、箱、板或件折算，单码价格与纺织接近。"
+      },
+      {
+        "phase": "当前已明确覆盖",
+        "category": "消费电子/电子电器",
+        "targetYear": 2026,
+        "exportValue2024UsdBn": 145.0,
+        "exportValue2025UsdBn": 155.9,
+        "billingUnits2024M": 805.6,
+        "billingUnits2025M": 866.1,
+        "unitValueUsd": 180.0,
+        "exporters2025": 12000,
+        "priceBandRmb": {
+          "bad": 0.12,
+          "mid": 0.25,
+          "good": 0.45
+        },
+        "growthAfter2026": 0.06,
+        "source2024": "按 2025 年电气电子口径剔除电池后回推，参考 2025 年中国高技术产品对欧出口同比约 +7.5%。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - electrical/electronic equipment 186.31B USD；减去 electric accumulators 30.41B USD。",
+        "note": "覆盖手机、电脑、家电 PCB、服务器等；以整机/板卡/可独立流通部件作为一物一码单元。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "涂料/洗涤剂",
+        "targetYear": 2029,
+        "exportValue2024UsdBn": 4.45,
+        "exportValue2025UsdBn": 4.8,
+        "billingUnits2024M": 684.6,
+        "billingUnits2025M": 738.5,
+        "unitValueUsd": 6.5,
+        "exporters2025": 2500,
+        "priceBandRmb": {
+          "bad": 0.04,
+          "mid": 0.07,
+          "good": 0.12
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按 organic chemicals 与日化出口趋势估算 4.45B USD。",
+        "source2025": "按 organic chemicals 38.54B USD 中约 12.5% 的 DPP 相关涂料/洗涤剂子类折算。",
+        "note": "该行是子类估算口径，避免与“化工/个人护理”整类重复时，五年预测按去重系数处理。"
+      }
+    ],
+    "topCategoriesByExportValue": [
+      {
+        "phase": "当前已明确覆盖",
+        "category": "消费电子/电子电器",
+        "targetYear": 2026,
+        "exportValue2024UsdBn": 145.0,
+        "exportValue2025UsdBn": 155.9,
+        "billingUnits2024M": 805.6,
+        "billingUnits2025M": 866.1,
+        "unitValueUsd": 180.0,
+        "exporters2025": 12000,
+        "priceBandRmb": {
+          "bad": 0.12,
+          "mid": 0.25,
+          "good": 0.45
+        },
+        "growthAfter2026": 0.06,
+        "source2024": "按 2025 年电气电子口径剔除电池后回推，参考 2025 年中国高技术产品对欧出口同比约 +7.5%。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - electrical/electronic equipment 186.31B USD；减去 electric accumulators 30.41B USD。",
+        "note": "覆盖手机、电脑、家电 PCB、服务器等；以整机/板卡/可独立流通部件作为一物一码单元。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "机械设备/工业装备",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 40.0,
+        "exportValue2025UsdBn": 45.0,
+        "billingUnits2024M": 57.1,
+        "billingUnits2025M": 64.3,
+        "unitValueUsd": 700.0,
+        "exporters2025": 8000,
+        "priceBandRmb": {
+          "bad": 0.3,
+          "mid": 0.6,
+          "good": 1.0
+        },
+        "growthAfter2026": 0.05,
+        "source2024": "从 machinery, nuclear reactors, boilers 大类剔除消费电子和白电子类后，估算为 40.00B USD。",
+        "source2025": "从 machinery, nuclear reactors, boilers 120.32B USD 中提取工业装备相关子类，估算为 45.00B USD。",
+        "note": "按设备、整机、模组或关键工业部件折算。"
+      },
+      {
+        "phase": "当前已明确覆盖",
+        "category": "纺织服装",
+        "targetYear": 2027,
+        "exportValue2024UsdBn": 31.1,
+        "exportValue2025UsdBn": 35.57,
+        "billingUnits2024M": 3887.5,
+        "billingUnits2025M": 4446.2,
+        "unitValueUsd": 8.0,
+        "exporters2025": 45000,
+        "priceBandRmb": {
+          "bad": 0.02,
+          "mid": 0.04,
+          "good": 0.06
+        },
+        "growthAfter2026": 0.05,
+        "source2024": "针织服装 13.49B + 非针织服装 12.54B + 其他纺织成品按 5.07B 估算。",
+        "source2025": "Trading Economics/UN Comtrade：针织服装 15.83B、非针织服装 14.21B、其他纺织成品 5.53B USD。",
+        "note": "与原模型一致，按件估算；鞋类单独列示，不并入本行避免重复计算。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "汽车及零部件",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 28.75,
+        "exportValue2025UsdBn": 33.82,
+        "billingUnits2024M": 11.5,
+        "billingUnits2025M": 13.5,
+        "unitValueUsd": 2500.0,
+        "exporters2025": 3500,
+        "priceBandRmb": {
+          "bad": 0.5,
+          "mid": 1.0,
+          "good": 1.8
+        },
+        "growthAfter2026": 0.06,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - vehicles other than railway, tramway = 28.75B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - vehicles other than railway, tramway = 33.82B USD (2025)。",
+        "note": "按整车或独立高值零部件/总成计费，不按螺丝等极小件计费。"
+      },
+      {
+        "phase": "当前已明确覆盖",
+        "category": "电池",
+        "targetYear": 2027,
+        "exportValue2024UsdBn": 24.25,
+        "exportValue2025UsdBn": 30.41,
+        "billingUnits2024M": 220.5,
+        "billingUnits2025M": 276.5,
+        "unitValueUsd": 110.0,
+        "exporters2025": 4500,
+        "priceBandRmb": {
+          "bad": 2.5,
+          "mid": 4.0,
+          "good": 6.0
+        },
+        "growthAfter2026": 0.1,
+        "source2024": "按 2025 年欧盟自中国进口 electric accumulators 30.41B 美元，结合 2025 年中国对欧盟储能电池/充电桩出口同比 +25.4% 回推。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - electric accumulators = 30.41B USD (2025)。",
+        "note": "采用“DPP 合规单元”口径，按电池包/模组/可独立追溯电池计费，不按电芯逐颗计费。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "家具",
+        "targetYear": 2028,
+        "exportValue2024UsdBn": 22.17,
+        "exportValue2025UsdBn": 24.1,
+        "billingUnits2024M": 316.7,
+        "billingUnits2025M": 344.3,
+        "unitValueUsd": 70.0,
+        "exporters2025": 10000,
+        "priceBandRmb": {
+          "bad": 0.1,
+          "mid": 0.2,
+          "good": 0.35
+        },
+        "growthAfter2026": 0.04,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - furniture, lighting signs, prefabricated buildings = 22.17B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - furniture, lighting signs, prefabricated buildings = 24.10B USD (2025)。",
+        "note": "床垫单列，家具本行不重复包含床垫。"
+      },
+      {
+        "phase": "近期即将纳入",
+        "category": "钢铁及钢制品",
+        "targetYear": 2026,
+        "exportValue2024UsdBn": 18.8,
+        "exportValue2025UsdBn": 20.49,
+        "billingUnits2024M": 156.7,
+        "billingUnits2025M": 170.8,
+        "unitValueUsd": 120.0,
+        "exporters2025": 5000,
+        "priceBandRmb": {
+          "bad": 0.12,
+          "mid": 0.25,
+          "good": 0.4
+        },
+        "growthAfter2026": 0.03,
+        "source2024": "按 iron and steel + articles of iron or steel 口径估算 18.80B USD。",
+        "source2025": "Trading Economics/UN Comtrade：iron and steel 15.75B + articles of iron or steel 4.74B USD。",
+        "note": "一物一码单元按卷、板、束、托盘或独立零部件折算。"
+      },
+      {
+        "phase": "中长期扩展方向",
+        "category": "玩具",
+        "targetYear": 2030,
+        "exportValue2024UsdBn": 14.87,
+        "exportValue2025UsdBn": 17.81,
+        "billingUnits2024M": 1982.7,
+        "billingUnits2025M": 2374.7,
+        "unitValueUsd": 7.5,
+        "exporters2025": 8000,
+        "priceBandRmb": {
+          "bad": 0.04,
+          "mid": 0.08,
+          "good": 0.12
+        },
+        "growthAfter2026": 0.05,
+        "source2024": "Trading Economics/UN Comtrade：EU imports from China - toys, games, sports requisites = 14.87B USD (2024)。",
+        "source2025": "Trading Economics/UN Comtrade：EU imports from China - toys, games, sports requisites = 17.81B USD (2025)。",
+        "note": "适合件级追溯，一码收入与纺织相近但监管资料字段更多。"
+      }
+    ],
+    "forecast2027To2029": [
+      {
+        "year": 2027,
+        "scenario": "坏",
+        "activeCategories": 6,
+        "activeBillingUnitsM": 2663.68,
+        "activeExporters": 22749.0,
+        "didPenetration": 0.1,
+        "codePenetration": 0.1,
+        "didRevenueM": 2.27,
+        "codeRevenueM": 42.83,
+        "consultingRevenueM": 5.14,
+        "totalRevenueM": 50.24
+      },
+      {
+        "year": 2028,
+        "scenario": "中",
+        "activeCategories": 8,
+        "activeBillingUnitsM": 5892.74,
+        "activeExporters": 46006.0,
+        "didPenetration": 0.2,
+        "codePenetration": 0.2,
+        "didRevenueM": 9.2,
+        "codeRevenueM": 299.6,
+        "consultingRevenueM": 53.93,
+        "totalRevenueM": 362.73
+      },
+      {
+        "year": 2029,
+        "scenario": "好",
+        "activeCategories": 10,
+        "activeBillingUnitsM": 9438.28,
+        "activeExporters": 69404.0,
+        "didPenetration": 0.3,
+        "codePenetration": 0.3,
+        "didRevenueM": 20.82,
+        "codeRevenueM": 1102.49,
+        "consultingRevenueM": 275.62,
+        "totalRevenueM": 1398.93
+      }
+    ],
+    "forecast2030To2034": [
+      {
+        "year": 2030,
+        "scenario": "坏",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 13950.47,
+        "activeExporters": 87216.0,
+        "didPenetration": 0.1,
+        "codePenetration": 0.1,
+        "didRevenueM": 8.72,
+        "codeRevenueM": 168.68,
+        "consultingRevenueM": 23.62,
+        "totalRevenueM": 201.02
+      },
+      {
+        "year": 2031,
+        "scenario": "坏",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 17390.23,
+        "activeExporters": 102064.0,
+        "didPenetration": 0.12,
+        "codePenetration": 0.12,
+        "didRevenueM": 12.25,
+        "codeRevenueM": 240.91,
+        "consultingRevenueM": 36.14,
+        "totalRevenueM": 289.3
+      },
+      {
+        "year": 2032,
+        "scenario": "坏",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 21171.88,
+        "activeExporters": 117929.0,
+        "didPenetration": 0.14,
+        "codePenetration": 0.14,
+        "didRevenueM": 16.51,
+        "codeRevenueM": 332.26,
+        "consultingRevenueM": 53.16,
+        "totalRevenueM": 401.93
+      },
+      {
+        "year": 2033,
+        "scenario": "坏",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 22095.63,
+        "activeExporters": 120431.0,
+        "didPenetration": 0.16,
+        "codePenetration": 0.16,
+        "didRevenueM": 19.27,
+        "codeRevenueM": 416.76,
+        "consultingRevenueM": 70.85,
+        "totalRevenueM": 506.88
+      },
+      {
+        "year": 2034,
+        "scenario": "坏",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 23063.84,
+        "activeExporters": 122989.0,
+        "didPenetration": 0.18,
+        "codePenetration": 0.18,
+        "didRevenueM": 22.14,
+        "codeRevenueM": 514.76,
+        "consultingRevenueM": 92.66,
+        "totalRevenueM": 629.56
+      },
+      {
+        "year": 2030,
+        "scenario": "中",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 13950.47,
+        "activeExporters": 89541.0,
+        "didPenetration": 0.2,
+        "codePenetration": 0.2,
+        "didRevenueM": 17.91,
+        "codeRevenueM": 584.32,
+        "consultingRevenueM": 105.18,
+        "totalRevenueM": 707.41
+      },
+      {
+        "year": 2031,
+        "scenario": "中",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 17390.23,
+        "activeExporters": 104786.0,
+        "didPenetration": 0.22,
+        "codePenetration": 0.22,
+        "didRevenueM": 23.05,
+        "codeRevenueM": 775.67,
+        "consultingRevenueM": 147.38,
+        "totalRevenueM": 946.1
+      },
+      {
+        "year": 2032,
+        "scenario": "中",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 21171.88,
+        "activeExporters": 121074.0,
+        "didPenetration": 0.24,
+        "codePenetration": 0.24,
+        "didRevenueM": 29.06,
+        "codeRevenueM": 1013.54,
+        "consultingRevenueM": 212.84,
+        "totalRevenueM": 1255.44
+      },
+      {
+        "year": 2033,
+        "scenario": "中",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 22095.63,
+        "activeExporters": 123643.0,
+        "didPenetration": 0.26,
+        "codePenetration": 0.26,
+        "didRevenueM": 32.15,
+        "codeRevenueM": 1212.91,
+        "consultingRevenueM": 278.97,
+        "totalRevenueM": 1524.03
+      },
+      {
+        "year": 2034,
+        "scenario": "中",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 23063.84,
+        "activeExporters": 126268.0,
+        "didPenetration": 0.28,
+        "codePenetration": 0.28,
+        "didRevenueM": 35.36,
+        "codeRevenueM": 1442.86,
+        "consultingRevenueM": 360.72,
+        "totalRevenueM": 1838.93
+      },
+      {
+        "year": 2030,
+        "scenario": "好",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 13950.47,
+        "activeExporters": 91867.0,
+        "didPenetration": 0.3,
+        "codePenetration": 0.3,
+        "didRevenueM": 27.56,
+        "codeRevenueM": 1370.4,
+        "consultingRevenueM": 301.49,
+        "totalRevenueM": 1699.45
+      },
+      {
+        "year": 2031,
+        "scenario": "好",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 17390.23,
+        "activeExporters": 107508.0,
+        "didPenetration": 0.33,
+        "codePenetration": 0.33,
+        "didRevenueM": 35.48,
+        "codeRevenueM": 1839.37,
+        "consultingRevenueM": 441.45,
+        "totalRevenueM": 2316.3
+      },
+      {
+        "year": 2032,
+        "scenario": "好",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 21171.88,
+        "activeExporters": 124219.0,
+        "didPenetration": 0.36,
+        "codePenetration": 0.36,
+        "didRevenueM": 44.72,
+        "codeRevenueM": 2426.9,
+        "consultingRevenueM": 655.26,
+        "totalRevenueM": 3126.88
+      },
+      {
+        "year": 2033,
+        "scenario": "好",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 22095.63,
+        "activeExporters": 126854.0,
+        "didPenetration": 0.39,
+        "codePenetration": 0.39,
+        "didRevenueM": 49.47,
+        "codeRevenueM": 2925.52,
+        "consultingRevenueM": 877.66,
+        "totalRevenueM": 3852.65
+      },
+      {
+        "year": 2034,
+        "scenario": "好",
+        "activeCategories": 19,
+        "activeBillingUnitsM": 23063.84,
+        "activeExporters": 129548.0,
+        "didPenetration": 0.42,
+        "codePenetration": 0.42,
+        "didRevenueM": 54.41,
+        "codeRevenueM": 3503.82,
+        "consultingRevenueM": 1121.22,
+        "totalRevenueM": 4679.45
+      }
+    ],
+    "hotCategories2029": [
+      {
+        "year": 2029,
+        "scenario": "好",
+        "category": "电池",
+        "phase": "当前已明确覆盖",
+        "launchFactor": 1.0,
+        "activeBillingUnitsM": 404.76,
+        "activeExporters": 5264.0,
+        "priceRmb": 6.0,
+        "penetration": 0.3,
+        "codeRevenueM": 728.56
+      },
+      {
+        "year": 2029,
+        "scenario": "好",
+        "category": "消费电子/电子电器",
+        "phase": "当前已明确覆盖",
+        "launchFactor": 1.0,
+        "activeBillingUnitsM": 1093.45,
+        "activeExporters": 13194.0,
+        "priceRmb": 0.45,
+        "penetration": 0.3,
+        "codeRevenueM": 147.62
+      },
+      {
+        "year": 2029,
+        "scenario": "好",
+        "category": "纺织服装",
+        "phase": "当前已明确覆盖",
+        "launchFactor": 1.0,
+        "activeBillingUnitsM": 5404.44,
+        "activeExporters": 48709.0,
+        "priceRmb": 0.06,
+        "penetration": 0.3,
+        "codeRevenueM": 97.28
+      },
+      {
+        "year": 2029,
+        "scenario": "好",
+        "category": "塑料/包装",
+        "phase": "近期即将纳入",
+        "launchFactor": 0.65,
+        "activeBillingUnitsM": 1528.57,
+        "activeExporters": 4221.0,
+        "priceRmb": 0.07,
+        "penetration": 0.3,
+        "codeRevenueM": 32.1
+      },
+      {
+        "year": 2029,
+        "scenario": "好",
+        "category": "家具",
+        "phase": "近期即将纳入",
+        "launchFactor": 0.65,
+        "activeBillingUnitsM": 261.8,
+        "activeExporters": 7036.0,
+        "priceRmb": 0.35,
+        "penetration": 0.3,
+        "codeRevenueM": 27.49
+      },
+      {
+        "year": 2029,
+        "scenario": "好",
+        "category": "轮胎/橡胶制品",
+        "phase": "近期即将纳入",
+        "launchFactor": 1.0,
+        "activeBillingUnitsM": 162.84,
+        "activeExporters": 1624.0,
+        "priceRmb": 0.5,
+        "penetration": 0.3,
+        "codeRevenueM": 24.43
+      },
+      {
+        "year": 2029,
+        "scenario": "好",
+        "category": "钢铁及钢制品",
+        "phase": "近期即将纳入",
+        "launchFactor": 1.0,
+        "activeBillingUnitsM": 192.18,
+        "activeExporters": 5412.0,
+        "priceRmb": 0.4,
+        "penetration": 0.3,
+        "codeRevenueM": 23.06
+      },
+      {
+        "year": 2029,
+        "scenario": "好",
+        "category": "涂料/洗涤剂",
+        "phase": "近期即将纳入",
+        "launchFactor": 0.35,
+        "activeBillingUnitsM": 290.9,
+        "activeExporters": 947.0,
+        "priceRmb": 0.12,
+        "penetration": 0.3,
+        "codeRevenueM": 10.47
+      }
+    ],
+    "customsReadiness": {
+      "direct": 4,
+      "partial": 2,
+      "pending": 12
+    },
+    "customsSamples": [
+      {
+        "dataType": "海关总署公开数量",
+        "category": "手机",
+        "quantity2024": 81394.4,
+        "unit2024": "万台",
+        "quantity2025": 75118.3,
+        "unit2025": "万台",
+        "usableForDpp": "是",
+        "note": "来自海关总署公开的《中国主要出口商品量值表》年度累计"
+      },
+      {
+        "dataType": "海关总署公开数量",
+        "category": "家用电器",
+        "quantity2024": 448144.5,
+        "unit2024": "万台",
+        "quantity2025": 445294.7,
+        "unit2025": "万台",
+        "usableForDpp": "是",
+        "note": "可直接作为家电大类数量基线"
+      },
+      {
+        "dataType": "海关总署公开数量",
+        "category": "汽车（含底盘）",
+        "quantity2024": 640.7,
+        "unit2024": "万辆",
+        "quantity2025": 832.4,
+        "unit2025": "万辆",
+        "usableForDpp": "是",
+        "note": "可直接作为汽车整车数量基线"
+      },
+      {
+        "dataType": "海关总署公开数量",
+        "category": "集成电路",
+        "quantity2024": 2981.1,
+        "unit2024": "亿个",
+        "quantity2025": 3494.7,
+        "unit2025": "亿个",
+        "usableForDpp": "部分可用",
+        "note": "可作为电子零部件大类数量参考但不等于全部消费电子"
+      },
+      {
+        "dataType": "海关总署公开数量",
+        "category": "船舶",
+        "quantity2024": 5804.0,
+        "unit2024": "艘",
+        "quantity2025": 6690.0,
+        "unit2025": "艘",
+        "usableForDpp": "部分可用",
+        "note": "属于海关公开数量但不在当前 DPP 核心品类范围内"
+      },
+      {
+        "dataType": "海关总署公开数量",
+        "category": "未锻轧铝及铝材",
+        "quantity2024": 666.5,
+        "unit2024": "万吨",
+        "quantity2025": 613.4,
+        "unit2025": "万吨",
+        "usableForDpp": "是",
+        "note": "可直接作为铝制品数量基线"
+      },
+      {
+        "dataType": "海关总署公开表中无数量",
+        "category": "家具及其零件",
+        "quantity2024": null,
+        "unit2024": "-",
+        "quantity2025": null,
+        "unit2025": "-",
+        "usableForDpp": "否",
+        "note": "公开公报中该项通常只有金额需要到互动查询页继续查数量"
+      },
+      {
+        "dataType": "海关总署公开表中无数量",
+        "category": "玩具",
+        "quantity2024": null,
+        "unit2024": "-",
+        "quantity2025": null,
+        "unit2025": "-",
+        "usableForDpp": "否",
+        "note": "公开公报中该项通常只有金额需要到互动查询页继续查数量"
+      },
+      {
+        "dataType": "海关总署公开表中无数量",
+        "category": "纺织纱线织物及其制品",
+        "quantity2024": null,
+        "unit2024": "-",
+        "quantity2025": null,
+        "unit2025": "-",
+        "usableForDpp": "否",
+        "note": "需到海关统计数据查询页按欧盟+商品维度查询数量"
+      },
+      {
+        "dataType": "海关总署公开表中无数量",
+        "category": "橡胶及其制品",
+        "quantity2024": null,
+        "unit2024": "-",
+        "quantity2025": null,
+        "unit2025": "-",
+        "usableForDpp": "否",
+        "note": "需到海关统计数据查询页按欧盟+商品维度查询数量"
+      },
+      {
+        "dataType": "海关总署公开表中无数量",
+        "category": "钢铁及其制品",
+        "quantity2024": null,
+        "unit2024": "-",
+        "quantity2025": null,
+        "unit2025": "-",
+        "usableForDpp": "否",
+        "note": "需到海关统计数据查询页按欧盟+商品维度查询数量"
+      },
+      {
+        "dataType": "海关总署公开表中无数量",
+        "category": "纸浆纸及其制品",
+        "quantity2024": null,
+        "unit2024": "-",
+        "quantity2025": null,
+        "unit2025": "-",
+        "usableForDpp": "否",
+        "note": "需到海关统计数据查询页按欧盟+商品维度查询数量"
+      },
+      {
+        "dataType": "海关总署公开表中无数量",
+        "category": "医疗仪器及器械",
+        "quantity2024": null,
+        "unit2024": "-",
+        "quantity2025": null,
+        "unit2025": "-",
+        "usableForDpp": "否",
+        "note": "公开表中该项通常只有金额需要到互动查询页继续查数量"
+      }
+    ],
+    "queryChecklist": [
+      {
+        "priority": "P1",
+        "category": "电池",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/电池及相关子目",
+        "recommendedUnit": "GWh或个/组/只",
+        "goal": "拿到对欧真实出口数量",
+        "note": "当前公开公报没有直接给出对欧电池数量"
+      },
+      {
+        "priority": "P1",
+        "category": "纺织服装",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/纺织纱线织物及制品",
+        "recommendedUnit": "件/千克",
+        "goal": "拿到对欧真实出口件数或重量",
+        "note": "件数优先"
+      },
+      {
+        "priority": "P1",
+        "category": "轮胎/橡胶制品",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/轮胎或橡胶制品",
+        "recommendedUnit": "条/件/吨",
+        "goal": "拿到对欧真实数量",
+        "note": "条数优先"
+      },
+      {
+        "priority": "P1",
+        "category": "钢铁及钢制品",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/钢铁及其制品",
+        "recommendedUnit": "吨",
+        "goal": "拿到对欧真实吨数",
+        "note": "后续再折算到卷/板/束/托盘"
+      },
+      {
+        "priority": "P1",
+        "category": "铝制品",
+        "hasPublicQuantity": "部分是",
+        "queryDimensions": "出口/欧盟/2024-2025/未锻轧铝及铝材",
+        "recommendedUnit": "吨",
+        "goal": "把全国公开数量进一步拆成欧盟口径",
+        "note": "全国总量已可公开获取"
+      },
+      {
+        "priority": "P1",
+        "category": "消费电子/电子电器",
+        "hasPublicQuantity": "部分是",
+        "queryDimensions": "出口/欧盟/2024-2025/手机/家电零部件/服务器/电子元件",
+        "recommendedUnit": "台/个/块",
+        "goal": "拆出对欧真实数量",
+        "note": "公开页面只有手机/集成电路等部分品类全国总量"
+      },
+      {
+        "priority": "P2",
+        "category": "家具",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/家具及其零件",
+        "recommendedUnit": "件/套",
+        "goal": "拿到对欧真实件数或套数",
+        "note": "公开公报通常只有金额"
+      },
+      {
+        "priority": "P2",
+        "category": "玩具",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/玩具、游戏品、运动用品",
+        "recommendedUnit": "件",
+        "goal": "拿到对欧真实件数",
+        "note": "公开公报通常只有金额"
+      },
+      {
+        "priority": "P2",
+        "category": "纸张/木制品",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/纸浆纸及其制品/木制品",
+        "recommendedUnit": "件/吨",
+        "goal": "拿到对欧真实数量",
+        "note": "按包/板/件进一步映射"
+      },
+      {
+        "priority": "P2",
+        "category": "医疗设备",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/医疗仪器及器械",
+        "recommendedUnit": "台/件",
+        "goal": "拿到对欧真实数量",
+        "note": "公开公报通常只有金额"
+      },
+      {
+        "priority": "P3",
+        "category": "塑料/包装",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/塑料及其制品",
+        "recommendedUnit": "件/吨",
+        "goal": "拿到对欧真实数量",
+        "note": "包装单元数优先"
+      },
+      {
+        "priority": "P3",
+        "category": "化工/清洁剂/个人护理",
+        "hasPublicQuantity": "否",
+        "queryDimensions": "出口/欧盟/2024-2025/清洁剂/个人护理相关子目",
+        "recommendedUnit": "件/升/千克",
+        "goal": "拿到更接近零售单元的数量",
+        "note": "需按子类拆分"
+      }
+    ]
+  }
+}
