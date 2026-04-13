@@ -3,6 +3,13 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 from functools import lru_cache
+from pathlib import Path
+
+from dotenv import load_dotenv
+
+# Load .env from backend root (one-time, before any getenv calls)
+_env_path = Path(__file__).resolve().parents[2] / ".env"
+load_dotenv(_env_path)
 
 
 @dataclass(frozen=True)
@@ -15,6 +22,7 @@ class Settings:
     news_provider: str = "json_seed"
     dashboard_database_path: str = "data/dashboard.db"
     news_rss_feeds: tuple[str, ...] = ()
+    un_comtrade_api_key: str = ""
 
 
 @lru_cache
@@ -25,6 +33,7 @@ def get_settings() -> Settings:
     dashboard_database_path = os.getenv("DASHBOARD_DATABASE_PATH", "data/dashboard.db").strip() or "data/dashboard.db"
     raw_news_rss_feeds = os.getenv("NEWS_RSS_FEEDS", "")
     news_rss_feeds = tuple(item.strip() for item in raw_news_rss_feeds.split(",") if item.strip())
+    un_comtrade_api_key = os.getenv("UN_COMTRADE_API_KEY", "").strip()
     if raw_origins:
         origins = tuple(item.strip() for item in raw_origins.split(",") if item.strip())
         return Settings(
@@ -33,10 +42,12 @@ def get_settings() -> Settings:
             news_provider=news_provider,
             dashboard_database_path=dashboard_database_path,
             news_rss_feeds=news_rss_feeds,
+            un_comtrade_api_key=un_comtrade_api_key,
         )
     return Settings(
         dashboard_provider=dashboard_provider,
         news_provider=news_provider,
         dashboard_database_path=dashboard_database_path,
         news_rss_feeds=news_rss_feeds,
+        un_comtrade_api_key=un_comtrade_api_key,
     )

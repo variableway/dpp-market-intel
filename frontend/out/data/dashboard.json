@@ -1,11 +1,11 @@
 {
   "meta": {
     "schema": "dashboard.v1",
-    "updatedAt": "2026-04-01T08:37:11.376344Z",
+    "updatedAt": "2026-04-13T10:47:49.817903Z",
     "description": "Static dashboard payload for pure static deployment"
   },
   "data": {
-    "updatedAt": "2026-04-01T08:37:11.376344Z",
+    "updatedAt": "2026-04-13T10:47:49.817903Z",
     "kpis": {
       "totalExportValue2025UsdBn": 450.29,
       "totalBillingUnits2025M": 15776.8,

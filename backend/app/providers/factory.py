@@ -4,6 +4,7 @@ from app.core.config import Settings
 from app.providers.base import DashboardProvider, NewsProvider
 from app.providers.dashboard.csv_provider import CsvDashboardProvider
 from app.providers.dashboard.sqlite_provider import SqliteDashboardProvider
+from app.providers.dashboard.un_comtrade_provider import UnComtradeDashboardProvider
 from app.providers.news.json_seed_provider import JsonSeedNewsProvider
 from app.providers.news.rss_provider import RssNewsProvider
 
@@ -17,9 +18,11 @@ def create_dashboard_provider(settings: Settings) -> DashboardProvider:
         return CsvDashboardProvider()
     if settings.dashboard_provider == "sqlite":
         return SqliteDashboardProvider(database_path=settings.dashboard_database_path)
+    if settings.dashboard_provider == "un_comtrade":
+        return UnComtradeDashboardProvider()
     raise UnsupportedProviderError(
         f"Unsupported dashboard provider: {settings.dashboard_provider}. "
-        "Currently supported: csv, sqlite"
+        "Currently supported: csv, sqlite, un_comtrade"
     )
 
 

@@ -1,11 +1,11 @@
 {
   "meta": {
     "schema": "news.v1",
-    "updatedAt": "2026-04-01T10:51:25.547222Z",
+    "updatedAt": "2026-04-13T10:47:49.818829Z",
     "description": "Static news payload for pure static deployment"
   },
   "data": {
-    "updatedAt": "2026-04-01T10:51:25.547222Z",
+    "updatedAt": "2026-04-13T10:47:49.818829Z",
     "topics": [
       "Aluminium",
       "Battery Passport",

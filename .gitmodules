@@ -1,0 +1,3 @@
+[submodule "comtradeapicall"]
+	path = comtradeapicall
+	url = https://github.com/uncomtrade/comtradeapicall.git
